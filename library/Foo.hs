@@ -1,4 +1,9 @@
+-- | A Foo module.
 module Foo (square) where
 
-square :: Num a => a -> a
+-- | Calculate the square of a number
+square :: Num a
+       => a -- ^ the number
+       -> a -- ^ the square
 square n = n^2
+
