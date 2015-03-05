@@ -11,3 +11,6 @@ maintainer:     ob@cs.hm.edu
 
 library
     default-language:   Haskell2010
+    exposed-modules:    Foo
+    hs-source-dirs:     library
+    build-depends:      base
