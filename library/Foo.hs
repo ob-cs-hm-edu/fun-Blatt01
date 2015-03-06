@@ -1,5 +1,5 @@
 -- | A Foo module.
-module Foo (square) where
+module Foo (square, double) where
 
 {- | Calculate the square of a number
 
@@ -11,3 +11,5 @@ square :: Num a
        -> a -- ^ the square
 square n = n^2
 
+double :: Num a => a -> a
+double = (*2)
