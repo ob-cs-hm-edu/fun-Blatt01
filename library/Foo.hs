@@ -11,5 +11,12 @@ square :: Num a
        -> a -- ^ the square
 square n = n^2
 
-double :: Num a => a -> a
+{- | Calculate the double of a number
+
+>>> double 15
+30
+-}
+double :: Num a
+       => a -- ^ the number
+       -> a -- ^the square
 double = (*2)
