@@ -11,5 +11,5 @@ arguments = [ "benchmark"
 
 main :: IO ()
 main = do
-    hints <- hlint arguments
+    hints <- hlint $ "--utf8" : arguments
     if null hints then exitSuccess else exitFailure
