@@ -9,7 +9,7 @@ module Foo (square, double) where
 square :: Num a
        => a -- ^ the number
        -> a -- ^ the square
-square n = n^2
+square n = n^2 -- ein deutscher Kommentär mit Sönderzeißchen
 
 {- | Calculate the double of a number
 
